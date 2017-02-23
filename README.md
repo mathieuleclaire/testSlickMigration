@@ -4,7 +4,11 @@
 2. Set the h2 file location (/tmp/h2 by default)
 3. Uncomment the Create section in the TestMigration file
 4. Comment the Update section in the TestMigration file
-5. Launch run 0
+5. Launch sbt, then:
+``` 
+> project demo
+> run 0
+```
 
 ## Do the migration
 
